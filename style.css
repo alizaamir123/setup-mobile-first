@@ -32,7 +32,7 @@ header a {
 
 .heading {
   margin-left: 20px;
-  font-family: 'Crete Round',sans-serif ;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -58,7 +58,7 @@ h2 {
 
 h4 {
   margin-left: 20px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -72,7 +72,7 @@ h4 {
 
 p {
   margin-left: 20px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -86,9 +86,6 @@ p {
 .banner {
   width: 1440px;
   height: 870px;
-  background: #1c1a19;   
+  background: #1c1a19;
 }
 
-.icon {
-  height: 50px;
-}
