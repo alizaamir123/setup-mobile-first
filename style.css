@@ -10,42 +10,40 @@ header {
   align-items: center;
   padding: 20px 50px;
   box-shadow: 0 1px 8px black;
-  background-color: #3E3C3C;;
+  background-color: #3e3c3c;
   color: white;
 }
 
 #nav {
-    margin-right: auto;
-    font-size: 1.5em;
+  margin-right: auto;
+  font-size: 1.5em;
 }
 
 header li {
-
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
 }
 
 .style {
-    font-size: 30px;
-    cursor: pointer;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .heading {
   margin-left: 20px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round',sans-serif ;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 82px;
-  color: #F55800;
+  color: #f55800;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -53,12 +51,12 @@ header a {
 
 h2 {
   margin-left: 20px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 82px;
-  color: #F55800;
+  color: #f55800;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -66,36 +64,35 @@ h2 {
 
 h4 {
   margin-left: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 1;
 }
 
 p {
   margin-left: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   flex: none;
   order: 2;
   margin-right: 600px;
 }
 
 .banner {
-
   width: 1440px;
   height: 870px;
-  background: #1C1A19;   
+  background: #1c1a19;   
 }
 
 .icon {
