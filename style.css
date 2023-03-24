@@ -56,6 +56,7 @@ span {
   font-size: 20px;
   cursor: pointer;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -454,7 +455,7 @@ li {
   gap: 24px;
 }
 
-.tags-skills {
+.tags-skill {
   font-family: Inter, sans-serif;
   font-size: 22px;
   font-weight: 400;
