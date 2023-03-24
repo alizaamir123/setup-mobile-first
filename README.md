@@ -45,9 +45,8 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="protfolio-project"></a>
- https://github.com/alizaamir123/setup-mobile-first/
-This is live version of my protfolio project.you can click on this link to watch live demo
+## 🚀 Live Demo <a name="Setup-mobile-first"></a>
+  I don't have live demo link currently.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
