@@ -1,55 +1,106 @@
-# setup-mobile-first
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ (OPTIONAL)
-📝 License
-📖 [mobile_first]
-Describe your project in 1 or 2 sentences.
+<a name="readme-top"></a>
 
-[mobile_first] is a...
+<!-- TABLE OF CONTENTS -->
 
-🛠 Built With html and CSS
-Tech Stack
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠️ Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Setup mobile first] <a name="about-project"></a>
+
+## 🛠️ Built With <a name="visual studio">HTML5</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- *It has linters*
+- *It has MIT license*
+- *It has html*
+- *It has CSS*
+- *It has javascript*
+
+<!-- LIVE DEMO -->
+
+I don't have live demo link.
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-Prerequisites
+### Prerequisites
 In order to run this project you need:
 
-Setup
-Clone this repository to your desired folder:
+Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
 
-Install
-Install this project with:
-
-Usage
-To run the project, execute the following command:
-
-Run tests
-To run tests, run the following command:
-
-Deployment
-You can deploy this project using:
-
-(back to top)
+Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
 
-👤 Author
+`git clone https://github.com/alizaamir123/setup-mobile-first`
 
-GitHub: @Alizaamir123
-LinkedIn: AlizaAmir
+Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+
+Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 *Aliza Amir*
+
+- GitHub: [@Alizaamir123](https://github.com/Alizaamir123)
+- LinkedIn: (https://www.linkedin.com/in/aliza-amir-545196215/)
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+- *CSS framework designing*
+- *More detailed*
+- *Master HTML*
+- *deskstop version*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+*please show your support to improve my skills .this will help me to work hard*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
