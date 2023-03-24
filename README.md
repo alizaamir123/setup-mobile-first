@@ -1,5 +1,3 @@
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -94,10 +92,15 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-*please show your support to improve my skills .this will help me to work hard*
+*please show your support to improve my skills .this will help me to work hard give a ⭐️ if you loke this project*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGEMENTS -->
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+"Special thanks to "Muneeb Rehman" for helping me in this project. His dedication, skills, and collaborative spirit were essential to my success."
 
 <!-- LICENSE -->
 
