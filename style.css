@@ -63,7 +63,7 @@ span {
   width: 375px;
   height: 590px;
   background: #1c1a19;
-  background-image: url("background-headline.png");
+  background-image: url("images/background-headline.png");
   background-repeat: no-repeat;
   background-position: 100% 115%;
 }
@@ -270,7 +270,7 @@ li {
   margin-top: 24px;
   display: flex;
   flex-direction: column;
-  background-image: url("4-img-placeholder.png");
+  background-image: url("images/4-img-placeholder.png");
   background-size: cover;
 }
 
@@ -356,7 +356,7 @@ li {
   width: 375px;
   height: 1901px;
   background-color: #1c1a19;
-  background-image: url("illustration-about-me.png");
+  background-image: url("images/illustration-about-me.png");
   background-repeat: no-repeat;
   background-position: 100% 22%;
 }

@@ -42,11 +42,15 @@
 - *It has MIT license*
 - *It has html*
 - *It has CSS*
-- *It has javascript*
 
 <!-- LIVE DEMO -->
 
-I don't have live demo link.
+## 🚀 Live Demo <a name="protfolio-project"></a>
+ https://github.com/alizaamir123/setup-mobile-first/
+This is live version of my protfolio project.you can click on this link to watch live demo
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -100,7 +104,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
