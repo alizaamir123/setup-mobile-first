@@ -1,5 +1,4 @@
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -26,9 +25,12 @@
 
 # 📖 [Setup mobile first] <a name="about-project"></a>
 
-## 🛠️ Built With <a name="visual studio">HTML5</a>
+## 🛠️ Built With html and CSS .This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.
 
 ### Tech Stack <a name="tech-stack"></a>
+Html
+CSS
+Visual studio code
 
 <!-- Features -->
 
