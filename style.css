@@ -131,17 +131,14 @@ li {
 }
 
 .works-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: center;
   width: 100%;
   margin-bottom: 120px;
   padding: 0 24px;
 }
 
 .works-title {
-  width: 329px;
-  margin-left: 24px;
-  padding: 31px 0 31px 0;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -149,11 +146,15 @@ li {
   line-height: 52px;
 }
 
+.works-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 85px 0;
+}
+
 .vector-works {
   margin-top: 24px;
-  margin-left: 24px;
-  margin-bottom: 80px;
-  width: 327px;
   height: 2px;
   border-width: 0;
   color: gray;
