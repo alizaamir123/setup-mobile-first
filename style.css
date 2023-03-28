@@ -538,7 +538,6 @@ li {
   display: flex;
   flex-direction: column;
   gap: 50px;
-
 }
 
 .input-text {
@@ -564,7 +563,7 @@ li {
   border: none;
 }
 
-.button{
+.button {
   display: flex;
   justify-content: center;
 }
@@ -581,12 +580,11 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  text-align: center;
 }
 
-.html-forms{
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-bottom: 1rem;
+.html-forms {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
 }
