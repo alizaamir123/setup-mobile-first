@@ -546,7 +546,7 @@ li {
   border-top: none;
   border-right: none;
   border-left: none;
-  font-family: Inter, sans-serif ;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: flex;
@@ -577,7 +577,7 @@ li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
