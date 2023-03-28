@@ -120,6 +120,17 @@ span {
   align-items: center;
 }
 
+.social-icons-2 {
+  margin-left: 90px;
+  margin-right: 90px;
+  width: 50%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 img {
   margin: 0;
   padding: 0;
@@ -496,10 +507,9 @@ li {
 }
 
 .submit-button {
-  height: 48px;
   margin-top: 24px;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 90px;
+  margin-right: 90px;
   padding: 12px;
   font-family: Inter, sans-serif;
   font-size: 17px;
@@ -523,13 +533,44 @@ li {
   color: #fff;
 }
 
-.html-forms {
-
+.form-container {
+  padding: 40px 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 
 }
-.text {
-  width: 327px;
-  height: 216px;
+
+.input-text {
+  padding: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-family: Inter, sans-serif ;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+}
+
+#message-field {
+  height: 17vh;
+  font-family: Inter, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background: #fbf8f7;
+  color: #3c3a39;
+  border: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.form-text {
+  width: 92%;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -541,7 +582,6 @@ li {
   order: 0;
   flex-grow: 0;
   text-align: center;
-
 }
 
 .html-forms{
