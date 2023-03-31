@@ -38,8 +38,10 @@ a {
 }
 
 .navlinks {
-  width: 0;
+  display: flex;
   display: none;
+  gap: 20px;
+  padding: 0 100px;
 }
 
 .menu {
@@ -62,9 +64,11 @@ span {
   flex-direction: column;
   width: 100%;
   background: #1c1a19;
-  background-image: url("images/background-headline.png");
+  background-image: url("images/Illustration-header.png");
   background-repeat: no-repeat;
-  background-position: 100% 115%;
+  background-position: 142% 101%;
+  background-size: 55%;
+  padding: 67px 24px;
 }
 
 .headline div {
@@ -81,7 +85,6 @@ span {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin: 120px 24px 0 70px;
 }
 
 .headline div p br {
@@ -95,7 +98,6 @@ span {
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
-  margin: 12px 24px 0 70px;
 }
 
 .about {
@@ -109,14 +111,13 @@ span {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 24px 0 70px;
 }
 
 .social-icons {
   height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 10px;
   align-items: center;
 }
 
@@ -290,7 +291,6 @@ li {
 .support-text-cards-work {
   margin-top: 12px;
   margin-left: 24px;
-  height: 87px;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -309,8 +309,7 @@ li {
 }
 
 .tag-cards-work-container .tag-title {
-  margin: 0 12px 0 0;
-  padding: 10px 12px 10px 12px;
+  padding: 8px;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -321,7 +320,7 @@ li {
 }
 
 .button-cards-work {
-  padding: 12px 113.5px 12px 113.5px;
+  padding: 10px;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -577,15 +576,33 @@ li {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 468px) {
+  .headline {
+    background-position: 147% 136%;
+    background-size: 49%;
+  }
+}
+
 @media (min-width: 768px) {
   .headline {
     flex-direction: row-reverse;
     align-items: center;
+    padding: 11% 24px;
+    gap: 40px;
+    background-position: 100% 189%;
+  }
+
+  .navlinks {
+    display: flex;
+  }
+
+  .button-about-me {
+    margin-left: 0;
   }
 
   .social-icons {
     flex-direction: column;
-    padding-left: 10%;
+    justify-content: center;
   }
 
   .Box {
@@ -637,7 +654,6 @@ li {
   }
 
   .about-me-title {
-    padding: 0% 5% 0 10%;
     font-family: "Crete Round", sans-serif;
     font-size: 72px;
     font-weight: 400;
@@ -645,54 +661,98 @@ li {
     letter-spacing: 0.3700000047683716px;
     text-align: left;
     color: #ff6b00;
+    margin: 0;
   }
 
   .support-text-about-me {
-    padding: 0 45% 0 10%;
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
     color: #f4f5f7;
+    width: 35%;
+    margin: 0;
   }
 
   .support-text {
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-size: 20px;
-    line-height: 180%;
+    font-size: 15px;
     color: #fff;
-    padding: 0% 40% 10% 10%;
+    margin: 0;
+    width: 40%;
+  }
+
+  .social-icons-2 {
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
   }
 
   .title {
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
-    line-height: 130%;
+    font-size: 42px;
     letter-spacing: 0.37px;
     color: #ff6b00;
-    padding: 3% 45% 0% 10%;
+    margin: 0;
+    width: 40%;
   }
 
   .text {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 22px;
     line-height: 50px;
     color: #fff5e1;
-    padding: 0% 45% 0% 10%;
+    margin: 0;
   }
 
   .form-container {
     display: flex;
     flex-direction: row;
+    padding: 73px 140px;
   }
 
   .padding {
     padding: 10% 10%;
+  }
+
+  .about-section-container {
+    padding: 75px 135px;
+  }
+}
+
+@media (min-width: 900px) {
+  .title {
+    width: 50%;
+    font-size: 60px;
+  }
+
+  .support-text {
+    width: 50%;
+  }
+
+  .works-area-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .headline {
+    background-position: 100% 35%;
+    background-size: 30%;
+  }
+
+  .about-section-container {
+    background-size: 45%;
+    background-position-y: 16%;
+  }
+
+  .title {
+    font-size: 75px;
   }
 }
