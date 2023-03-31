@@ -29,7 +29,6 @@ a {
 
 .logo {
   margin-left: 20px;
-  width: 90px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -82,7 +81,7 @@ span {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin: 120px 24px 0 20px;
+  margin: 120px 24px 0 70px;
 }
 
 .headline div p br {
@@ -96,9 +95,13 @@ span {
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
-  margin: 12px 24px 0 20px;
+  margin: 12px 24px 0 70px;
 }
 
+.about {
+ padding-top: 10%;
+
+}
 .support-text {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -106,13 +109,10 @@ span {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 24px 0 20px;
+  margin: 12px 24px 0 70px;
 }
 
 .social-icons {
-  margin-left: 24px;
-  margin-top: 12px;
-  width: 200px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -177,7 +177,6 @@ li {
 }
 
 .multi-post-stories {
-  width: 375px;
   height: 568px;
   display: flex;
   flex-direction: column;
@@ -185,7 +184,7 @@ li {
 
 .stories-image {
   width: 98%;
-  height: 237px;
+  height: 50%;
   margin-top: 0;
 }
 
@@ -239,7 +238,6 @@ li {
 
 .button-see-project {
   padding: 12px;
-  width: 135px;
   height: 48px;
   font-family: Inter, sans-serif;
   font-size: 17px;
@@ -264,19 +262,22 @@ li {
   color: #fff;
 }
 
-/* .works-area-cards {
-  margin-top: 24px;
+.works-area-cards {
   width: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
+}
+
+.works-area-cards {
+  width: 100%;
+  display: grid;
+}
 
 .cards-work-container {
   width: 100%;
   margin-top: 24px;
   display: flex;
   flex-direction: column;
-  background-image: url("images/1-img-paceholder.png");
+  background-image: url("images/4-img-placeholder.png");
   background-size: cover;
 }
 
@@ -284,7 +285,6 @@ li {
   margin-top: 84px;
   margin-left: 24px;
   height: 81px;
-  width: 295px;
   font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
@@ -297,7 +297,6 @@ li {
   margin-top: 12px;
   margin-left: 24px;
   height: 87px;
-  width: 295px;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -307,7 +306,6 @@ li {
 }
 
 .tag-cards-work-container {
-  width: 236px;
   height: 40px;
   margin-left: 24px;
   margin-top: 12px;
@@ -419,7 +417,6 @@ li {
 .vector-about-me {
   margin-left: 24px;
   margin-top: 209px;
-  width: 327px;
   border: 1px solid #fff;
   background-color: #fff;
 }
@@ -436,7 +433,6 @@ li {
 
 .language-skill {
   margin-top: 128px;
-  width: 225px;
   height: 281px;
   display: flex;
   flex-direction: column;
@@ -446,7 +442,6 @@ li {
 .frameworks-skill {
   margin-top: 32px;
   height: 336px;
-  width: 281px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -455,7 +450,6 @@ li {
 .skills-list {
   margin-top: 32px;
   height: 336px;
-  width: 281px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -486,20 +480,17 @@ li {
 }
 
 .card-skills-title .icons-skills-rectangle {
-  width: 26px;
   height: 26px;
   align-self: center;
 }
 
 .card-skills-title .icons-skills-square {
-  width: 20px;
   height: 20px;
   align-self: center;
   margin-right: 18px;
 }
 
 .card-skills-title .icons-skills-circle {
-  width: 20px;
   height: 20px;
   align-self: center;
 }
@@ -595,12 +586,19 @@ li {
 
   .social-icons {
     flex-direction: column;
+    padding-left: 10%;
   }
 
   .Box {
+    padding: 0% 10% 0% 10%;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    height: 10%;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .stories-image {
+    height: 100%;
+    width: 80%;
+
   }
 
   .multi-post-title {
@@ -613,10 +611,84 @@ li {
   }
 
   .works-area-cards {
+    padding: 0% 10% 0% 10%;
     display: grid;
     grid-template-columns:repeat(3,1fr);
+    height: 10%; 
+    gap: 2%;
+  }
+
+  .works-area-cards-2 {
+    padding: 0% 10% 10% 10%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    height: 10%; 
+    gap: 2%;
+  }
+  .skill-about-me-container {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    height: 10%; 
+
+  }
+  .about-me-title {
+    padding: 10% 5% 0 10%;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #ff6b00;
+
+  }
+
+  .support-text-about-me {
+    padding: 0 45% 0 10%;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #f4f5f7;
+
+  }
+  .support-text {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    padding: 0% 40% 10% 10%;
+  }
+
+  .title {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 130%;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    padding: 3% 45% 0% 10%;
+  }
+  .text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #fff5e1;
+    padding: 0% 45% 0% 10%;
+  }
+
+  .form-container {
+display: flex;
+flex-direction: row;
+
+
 
   }
   
-  
 }
+
