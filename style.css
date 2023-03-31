@@ -100,8 +100,8 @@ span {
 
 .about {
   padding: 0 0 15% 0;
-
 }
+
 .support-text {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -266,11 +266,6 @@ li {
   display: grid;
 }
 
-.works-area-cards {
-  width: 100%;
-  display: grid;
-}
-
 .cards-work-container {
   width: 100%;
   margin-top: 24px;
@@ -350,9 +345,6 @@ li {
   color: #fff;
 }
 
-/* END Works Section */
-
-/* BEGIN About Section */
 .about-section-container {
   display: flex;
   flex-direction: column;
@@ -496,7 +488,6 @@ li {
 
 .padding {
 padding: 5% 5%;
-
 }
 
 .submit-button {
@@ -517,7 +508,6 @@ padding: 5% 5%;
 
 .Box {
   padding-top: 85px;
-
 }
 
 .submit-button:hover {
@@ -607,7 +597,6 @@ padding: 5% 5%;
   .stories-image {
     height: 90%;
     width: 95%;
-
   }
 
   .multi-post-title {
@@ -626,14 +615,14 @@ padding: 5% 5%;
     gap: 2%;
   }
 
-  .form-text{
+  .form-text {
     width: 50%;
   }
 
-  .language-skill{
+  .language-skill {
     margin-top: 0;
-
   }
+
   .works-area-cards-2 {
     display: grid;
     grid-template-columns:repeat(3,1fr);
@@ -687,6 +676,7 @@ padding: 5% 5%;
     color: #ff6b00;
     padding: 3% 45% 0% 10%;
   }
+
   .text {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -703,9 +693,7 @@ padding: 5% 5%;
   }
 
   .padding {
-   padding: 10% 10% ;
-
+   padding: 10% 10%;
   }
   
 }
-
