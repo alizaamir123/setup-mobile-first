@@ -99,7 +99,7 @@ span {
 }
 
 .about {
- padding-top: 10%;
+  padding: 0 0 15% 0;
 
 }
 .support-text {
@@ -161,7 +161,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 85px 0;
 }
 
 .vector-works {
@@ -183,7 +182,7 @@ li {
 }
 
 .stories-image {
-  width: 98%;
+  width: 100%;
   height: 50%;
   margin-top: 0;
 }
@@ -390,7 +389,7 @@ li {
 .button-about-me {
   height: 48px;
   margin-top: 24px;
-  margin-left: 24px;
+  margin-left: 12%;
   padding: 12px;
   font-family: Inter, sans-serif;
   font-size: 17px;
@@ -495,6 +494,11 @@ li {
   align-self: center;
 }
 
+.padding {
+padding: 5% 5%;
+
+}
+
 .submit-button {
   margin-top: 24px;
   margin-left: 90px;
@@ -509,6 +513,11 @@ li {
   background: #ff6b00;
   color: #fff;
   border: none;
+}
+
+.Box {
+  padding-top: 85px;
+
 }
 
 .submit-button:hover {
@@ -590,14 +599,14 @@ li {
   }
 
   .Box {
-    padding: 0% 10% 0% 10%;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 85px;
   }
 
   .stories-image {
-    height: 100%;
-    width: 80%;
+    height: 90%;
+    width: 95%;
 
   }
 
@@ -611,28 +620,35 @@ li {
   }
 
   .works-area-cards {
-    padding: 0% 10% 0% 10%;
     display: grid;
     grid-template-columns:repeat(3,1fr);
     height: 10%; 
     gap: 2%;
   }
 
+  .form-text{
+    width: 50%;
+  }
+
+  .language-skill{
+    margin-top: 0;
+
+  }
   .works-area-cards-2 {
-    padding: 0% 10% 10% 10%;
     display: grid;
     grid-template-columns:repeat(3,1fr);
     height: 10%; 
     gap: 2%;
   }
+
   .skill-about-me-container {
     display: grid;
+    align-items: baseline;
     grid-template-columns:repeat(3,1fr);
-    height: 10%; 
-
   }
+
   .about-me-title {
-    padding: 10% 5% 0 10%;
+    padding: 0% 5% 0 10%;
     font-family: 'Crete Round', sans-serif;
     font-size: 72px;
     font-weight: 400;
@@ -640,7 +656,6 @@ li {
     letter-spacing: 0.3700000047683716px;
     text-align: left;
     color: #ff6b00;
-
   }
 
   .support-text-about-me {
@@ -648,11 +663,11 @@ li {
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     text-align: left;
     color: #f4f5f7;
-
   }
+
   .support-text {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -683,10 +698,12 @@ li {
   }
 
   .form-container {
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+  }
 
-
+  .padding {
+   padding: 10% 10% ;
 
   }
   
