@@ -610,7 +610,7 @@ li {
 
   .works-area-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     height: 10%;
     gap: 2%;
   }
