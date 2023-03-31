@@ -359,7 +359,7 @@ li {
 .about-me-title {
   margin-top: 120px;
   margin-left: 24px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 88px;
@@ -487,7 +487,7 @@ li {
 }
 
 .padding {
-padding: 5% 5%;
+  padding: 5% 5%;
 }
 
 .submit-button {
@@ -577,7 +577,7 @@ padding: 5% 5%;
   margin-bottom: 1rem;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .headline {
     flex-direction: row-reverse;
     align-items: center;
@@ -610,8 +610,8 @@ padding: 5% 5%;
 
   .works-area-cards {
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-    height: 10%; 
+    grid-template-columns: repeat(3, 1fr);
+    height: 10%;
     gap: 2%;
   }
 
@@ -625,20 +625,20 @@ padding: 5% 5%;
 
   .works-area-cards-2 {
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-    height: 10%; 
+    grid-template-columns: repeat(3, 1fr);
+    height: 10%;
     gap: 2%;
   }
 
   .skill-about-me-container {
     display: grid;
     align-items: baseline;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .about-me-title {
     padding: 0% 5% 0 10%;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 88px;
@@ -693,7 +693,6 @@ padding: 5% 5%;
   }
 
   .padding {
-   padding: 10% 10%;
+    padding: 10% 10%;
   }
-  
 }
