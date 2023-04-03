@@ -46,7 +46,7 @@ Visual studio code
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="Setup-mobile-first"></a>
-  I don't have live demo link currently.
+https://alizaamir123.github.io/setup-mobile-first/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
