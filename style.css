@@ -538,6 +538,10 @@ li {
   display: flex;
 }
 
+input:focus {
+  outline: none;
+}
+
 #message-field {
   height: 17vh;
   font-family: Inter, sans-serif;
@@ -555,7 +559,7 @@ li {
   justify-content: center;
 }
 
-.form-text {
+/* .form-text {
   width: 92%;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -567,6 +571,11 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
+}  */
+
+.form-supporting-text {
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .html-forms {
@@ -633,7 +642,7 @@ li {
   }
 
   .form-text {
-    width: 50%;
+    width: 38%;
   }
 
   .language-skill {
@@ -733,6 +742,10 @@ li {
   }
 
   .support-text {
+    width: 50%;
+  }
+
+  .container {
     width: 50%;
   }
 
