@@ -35,6 +35,12 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #fff;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  transform: rotate(5deg);
+  background-color: #f4f5f7;
 }
 
 .navlinks {
